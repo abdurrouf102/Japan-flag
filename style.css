@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.japan_flag{
+    background-color: rgb(5, 75, 5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.flag{
+height: 220px;
+width: 350px;
+background-color: white;
+display: flex;
+align-items: center;
+position: relative;
+justify-content: center;
+}
+
+.circle{
+    width: 105px;
+    height: 105px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.name{
+    color: rgb(200, 255, 0);
+    padding-top: 260px;
+}
+
+.name:hover{
+    color: black;
+}
+
+.copyright{
+    background-color: rgb(5, 75, 5);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    padding-bottom: 50px;
+}
